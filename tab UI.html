@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Tab JQuery UI</title>
+
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#MyTabDiv").tabs();
+
+        });
+    </script>
+
+    <style type="text/css">
+        #MyTabDiv {
+            font-size: 14px;
+        }
+        
+        #MyTabDiv div,
+        #MyTabDiv p {
+            background: #ffffff;
+        }
+        
+        .ui-widget-header {
+            background: #b9cd6d;
+            border: 1px solid #b9cd6d;
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="MyTabDiv">
+        <ul>
+            <li><a href="#tab1">Book</a></li>
+            <li><a href="#tab2">New Book Arrivel</a></li>
+            <li><a href="#tab3">Authors</a></li>
+            <li><a href="#tab4">Video</a></li>
+        </ul>
+        <div id="tab1">
+            <p>
+                <ul><a href="pdf/Chetan_Bhagat_-_2_States_The_Story_of_My_Marriage.pdf">2 states</a></ul>
+                <ul>hamlet</ul>
+                <ul>Adventure</ul>
+            </p>
+        </div>
+        <div id="tab2">
+            <p>
+                <ol>the happiness Project</ol>
+                <ol>Power Of Subconsious Mind
+
+                </ol>
+            </p>
+        </div>
+        <div id="tab3">
+            <p>
+                <ul>Chetan Bhagat</ul>
+                <ul>Josheph Murphy</ul>
+                <ul>Harold Robbins</ul>
+            </p>
+        </div>
+        <div id="tab4">
+            <p>
+                <video src="C:\Users\VISHVA\Desktop\website" controls autoplay muted loop width="600px"></video>
+                <hr/>
+            </p>
+
+
+        </div>
+        <hr/>
+</body>
+
+</html>
